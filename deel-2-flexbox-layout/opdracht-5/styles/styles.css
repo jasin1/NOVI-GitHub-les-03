@@ -1,0 +1,36 @@
+/*Schrijf hier jouw CSS*/
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header{
+    flex-grow: 1;
+
+}
+
+main{
+    flex-grow: 8;
+    display: flex;
+}
+
+article{
+    order: 2;
+    flex-grow: 4;
+}
+
+nav{
+    order: 1;
+    flex-grow: 1;
+}
+
+aside{
+    order: 3;
+    flex-grow: 1;
+}
+
+footer{
+    flex-grow: 1;
+}

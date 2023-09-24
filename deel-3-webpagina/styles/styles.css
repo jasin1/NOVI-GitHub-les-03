@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&family=Playfair+Display:wght@600&display=swap');
+
+/*Schrijf hier jouw css*/
+
+/*
+    Coolors
+    (https://coolors.co/151e3f-030027-f2f3d9-dc9e82-c16e70)
+
+    #151E3F
+    #030027
+    #F2F3D9
+    #DC9E82
+    #C16E70
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    background-color: #F2F3D9;
+}
+
+
+nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #030027;
+    /*padding: 20px 40px;*/
+}
+
+span{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 1.5rem;
+}
+
+main{
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 40px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #151E3F;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #151E3F;
+}
+
+.container{
+    max-width: 80%;
+}
+
+.header{
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    /*max-width: 600px;*/
+}
+
+
+.content{
+    /*border: 3px dashed purple;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-grow: 2;
+    gap: 20px;
+}
+
+.item{
+    background-color: #C16E70;
+    color: #030027;
+    max-width: 280px;
+    padding: 40px;
+    border-radius: 6px;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.item p{
+    text-align: center;
+}
